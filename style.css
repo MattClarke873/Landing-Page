@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  border: 1px solid red;
+
   box-sizing: border-box;
   font-family: roboto, Arial, Helvetica, sans-serif;
 }
@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .logobox {
@@ -44,7 +44,7 @@
   align-items: center;
   gap: 50px;
   padding-left: 110px;
-  
+
 
 }
 
@@ -52,7 +52,7 @@
 
   font-size: 20px;
   color: #E5E7EB;
-  
+
 }
 
 
@@ -108,10 +108,10 @@
   display: flex;
   align-items: center;
   justify-content: left;
-  
+
 }
 
-.img{
+.img {
   background-color: #818285;
   height: 310px;
   width: 650px;
@@ -120,10 +120,7 @@
   justify-content: center;
 }
 
-.text{
-
-
-}
+.text {}
 
 .layer2 {
   background-color: white;
@@ -131,7 +128,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
 .title {
@@ -144,17 +141,18 @@
 .cardsBox {
   height: 100px;
   width: 100%;
-  margin-top:110px;
+  margin-top: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 70px;
 }
-.cards{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -165,10 +163,11 @@ align-items: center;
   border-radius: 20px;
 }
 
-.cardText{
-  width: 205px;
+.cardText {
+  width: 190px;
   text-align: center;
   font-size: 20px;
+  color: #818285;
 
 }
 
@@ -190,7 +189,7 @@ align-items: center;
   color: #1F2937;
 }
 
-.author{
+.author {
   color: black;
   justify-self: right;
   text-align: right;
@@ -229,7 +228,7 @@ align-items: center;
 }
 
 .singupboxtitle {
-  font-weight:900;
+  font-weight: 900;
   font-size: 29px;
 }
 
@@ -268,7 +267,7 @@ align-items: center;
   align-items: center;
 }
 
-.copy{
+.copy {
   color: white;
   font-size: 20px;
 }
